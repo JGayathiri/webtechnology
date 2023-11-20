@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+        <h1 style="background-color:lightblue; text-align: center;"><b>Welcome To Online Library</b></h1>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+   body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: wheat;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: pink;
+}
+
+.topnav a.active {
+  background-color: yellowgreen;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="search lib.html">Search</a>
+  <a href="#Books">Books</a>
+  <a href="dues.html">Dues</a>
+  <a href="#Financial record">Financial record</a>
+  <a href="register.html">Register</a>
+  <a href="#My Profile">My Profile</a>
+  <a href="#Logout">Logout</a>
+</div>
+
+<div style="padding-right:16px;">
+</div>
+</body>
+</head>
+
+
+<style>
+ Body {
+    font-family: Calibri, Helvetica, sans-serif;
+    background-color: white;
+  }
+  button { 
+         background-color: #4CAF50; 
+         width: 100%;
+          color: black; 
+          padding: 15px; 
+          margin: 10px 0px; 
+          border: none; 
+          cursor: pointer; 
+        } 
+   form { 
+          border: 3px solid black; 
+        } 
+   input[type=text], input[type=password] { 
+          width: 100%; 
+          margin: 8px 0;
+          padding: 12px 20px; 
+          display: inline-block; 
+          border: 2px solid black; 
+          box-sizing: border-box; 
+      }
+   button:hover { 
+          opacity: 0.7; 
+      } 
+    .cancelbtn { 
+          width: auto; 
+          padding: 10px 18px;
+          margin: 10px 5px;
+      } 
+        
+     
+   .container { 
+          padding: 20px; 
+          background-color: white;
+   }    
+  </style>
+     <center> <h1> Student Login Form </h1> </center> 
+      <form>
+          <div class="container"> 
+              <label>Username : </label> 
+              <input type="text" placeholder="Enter Username" name="username" required>
+              <label>Password : </label> 
+              <input type="password" placeholder="Enter Password" name="password" required>
+              <button type="submit">Login</button> 
+              <input type="checkbox" checked="checked"> Remember me 
+              <button type="button" class="cancelbtn"> Cancel</button> 
+              Forgot <a href="#"> password? </a> 
+          </div> 
+      </form>
+      <hr>
+      <head>
+      <title>Library Sign Up Page</title>
+      <link rel="stylesheet" type="text/css" href="library.css">
+      </head>
+      <body>
+      <div class="signup-form">
+      <form action="/submit_form" method="post">
+      <h2>Library Sign Up</h2>
+      <label for="lname">Library Card Number:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+      <label for="pwd">Password:</label><br>
+      <input type="password" id="pwd" name="pwd"><br>
+      <label for="pwdrepeat">Repeat Password:</label><br>
+      <input type="password" id="pwdrepeat" name="pwdrepeat"><br>
+      <input type="submit" value="Submit">
+      </form>
+      </div>
+      </body>
+    </style>
+  </body>
+</html>
