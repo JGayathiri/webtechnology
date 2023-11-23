@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Insurance Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Online Insurance Management System</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Agents</a></li>
+                <li><a href="#">Customers</a></li>
+                <li><a href="#">Policies</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="login">
+            <h2>Login</h2>
+            <form>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username">
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password">
+                <input type="submit" value="Login">
+            </form>
+        </section>
+        <section id="agents">
+            <h2>Agents</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Agent ID</th>
+                        <th>Name</th>
+                        <th>Contact</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Agent details will be fetched and displayed here -->
+                </tbody>
+            </table>
+        </section>
+        <section id="customers">
+            <h2>Customers</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Customer ID</th>
+                        <th>Name</th>
+                        <th>Contact</th>
+                        <th>Policy</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Customer details will be fetched and displayed here -->
+                </tbody>
+            </table>
+        </section>
+        <section id="policies">
+            <h2>Policies</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Policy ID</th>
+                        <th>Customer</th>
+                        <th>Insurance Type</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Policy details will be fetched and displayed here -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2022 Online Insurance Management System. All rights reserved.</p>
+    </footer>
+</body>
+</html>
