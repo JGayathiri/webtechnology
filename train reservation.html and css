@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Train Reservation System</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Train Reservation System</h1>
+        <form id="reservationForm">
+            <!-- Include form fields for passenger details, origin, destination, date, etc. -->
+            <!-- Add input fields for login credentials, payment details, etc. -->
+            
+            <button type="button" onclick="checkAvailability()">Check Availability</button>
+            <button type="button" onclick="makeReservation()">Make Reservation</button>
+            <button type="button" onclick="checkPNRStatus()">Check PNR Status</button>
+            <button type="button" onclick="cancelTicket()">Cancel Ticket</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+css:-
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
