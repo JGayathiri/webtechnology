@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Online Hospital Appointment Booking System</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Online Hospital Appointment Booking System</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">User Registration</a></li>
+            <li><a href="#">User Login</a></li>
+            <li><a href="#">Hospital Registration</a></li>
+            <li><a href="#">Hospital Login</a></li>
+        </ul>
+    </nav>
+    <section id="search">
+        <h2>Search Module</h2>
+        <form>
+            <label for="location">Location:</label>
+            <input type="text" id="location" name="location">
+            <label for="specialty">Specialty:</label>
+            <input type="text" id="specialty" name="specialty">
+            <input type="submit" value="Search">
+        </form>
+    </section>
+    <section id="book">
+        <h2>Appointment Booking</h2>
+        <form>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date">
+            <label for="time">Time:</label>
+            <input type="time" id="time" name="time">
+            <label for="hospital">Hospital:</label>
+            <select id="hospital" name="hospital">
+                <option value="hospital1">Hospital 1</option>
+                <option value="hospital2">Hospital 2</option>
+            </select>
+            <label for="doctor">Doctor:</label>
+            <select id="doctor" name="doctor">
+                <option value="doctor1">Doctor 1</option>
+                <option value="doctor2">Doctor 2</option>
+            </select>
+            <input type="submit" value="Book Appointment">
+        </form>
+    </section>
+    <section id="admin">
+        <h2>Admin Features</h2>
+        <ul>
+            <li><a href="#">Manage Appointments</a></li>
+            <li><a href="#">Manage Doctors</a></li>
+            <li><a href="#">View Appointments Statistics</a></li>
+            <li><a href="#">Rating Details</a></li>
+        </ul>
+    </section>
+    <section id="patient">
+        <h2>Patient Features</h2>
+        <ul>
+            <li><a href="#">Signup/Login</a></li>
+            <li><a href="#">Book Appointment</a></li>
+            <li><a href="#">Search Doctor</a></li>
+            <li><a href="#">Write Reviews</a></li>
+            <li><a href="#">Check-in Details</a></li>
+            <li><a href="#">Medical Past Appointment</a></li>
+        </ul>
+    </section>
+    <section id="hospital">
+        <h2>Hospital Features</h2>
+        <ul>
+            <li><a href="#">Hospital Registration</a></li>
+            <li><a href="#">Hospital Login</a></li>
+            <li><a href="#">Create Hospital Details</a></li>
+            <li><a href="#">Update Details</a></li>
+            <li><a href="#">Update Location</a></li>
+        </ul>
+    </section>
+</body>
+</html>
